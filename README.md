@@ -6,12 +6,16 @@
 需要安装Node.js，MongoDB以及基于Node的Nodemon模块，该模块用于自动重启web服务器
 
 ### clone项目  
-git命令行输入`git clone https://github.com/yuzhantian/meandemo.git`
+`git clone https://github.com/yuzhantian/meandemo.git`
 
-###加载依赖包  
+### 加载依赖包  
 cmd命令行下输入  
 `cd meandemo`  
 `npm install`
 
-###启动项目
+### 启动项目
 `nodemon`
+
+### 查看结果
+浏览器打开`http://localhost:30000`  
+可在 `/bin/www` 中的第15行`var port = normalizePort(process.env.PORT || '30000');`修改端口
